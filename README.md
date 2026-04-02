@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PIXEL_GRID 🖼️
 
-## Getting Started
+**PIXEL_GRID** — это высокопроизводительная медиа-галерея на Next.js 15, имитирующая интерфейс цифрового архива. Проект ориентирован на плавность интерфейса (UX) и эффективную работу с состоянием.
 
-First, run the development server:
+## ⚡ Технологический стек
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js 15 (App Router)**: Использование серверных и клиентских компонентов.
+- **TypeScript**: Полная типизация медиа-ассетов и интерфейсов.
+- **Framer Motion**: Сложные Layout-анимации и интерактивные переходы.
+- **Tailwind CSS v4**: Кастомная стилизация в эстетике "Dark Tech".
+- **Lucide React**: Пакет системных иконок.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Функционал уровня Production
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  **Smart Filtering & Search**: Мгновенная фильтрация по категориям и текстовый поиск с использованием `useMemo` для оптимизации производительности.
+2.  **Persistent Favorites**: Система "Избранного" с сохранением данных в `localStorage`. Ваши предпочтения не сбрасываются после перезагрузки.
+3.  **Advanced Lightbox**: Просмотр изображений на весь экран с эффектом `backdrop-blur` и поддержкой горячих клавиш (ESC для выхода).
+4.  **Asset Download**: Прямое скачивание медиа-файлов через Blob API.
+5.  **Dynamic Sorting**: Сортировка контента по названию и категориям.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Развертывание
 
-## Learn More
+1. Клонировать: `git clone https://github.com/podmefom/Gallery-grid.git`
+2. Установить зависимости: `npm install`
+3. Запуск: `npm run dev`
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Проект выполнен в рамках интенсива по современному фронтенду.*
